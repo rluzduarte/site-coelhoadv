@@ -1,0 +1,182 @@
+html, body {height:100%;} 
+body {
+	margin:0; 
+	padding:0;
+	background:#fff;
+	color:#444637;
+	font:12px Verdana, Arial, Helvetica, sans-serif;
+	text-align:center;
+	}
+#wrapper { 
+	width:985px;
+	position:relative;
+	background:#eaf0bd;
+	margin:0 auto;
+	text-align:left;
+/*	min-height:100%; */
+	}
+/* html #wrapper {height: 100%;} */
+#container {padding-bottom:30px;}
+#header {
+	width:950px;
+	height:155px;
+	border-top:19px solid #fff;
+	text-align:center;
+	padding:0 0 0 35px;
+	}
+#logo {
+	width:263px; 
+	height:98px; 
+	margin-top:28px; 
+	float:left;
+	}
+#nav {
+	float:left;
+	width:629px;
+	margin-left:12px;
+	height:18px;
+	margin-top:90px;
+	}
+#nav ul {height:18px;}
+#nav ul li {display:block; height:18px; float:left; margin:0; padding:0 14px; list-style-type:none;}
+#flash {margin:0 34px 171px 29px; display:inline-block; width:922px;}
+#content {margin:0 60px 0 35px; display:inline-block; width:890px;}
+
+.pagination {margin:13px 0 0 35px; color:#5a5b49; padding:4px 0; width:116px; text-align:center; font-size:11px; background:#d1d7aa;}
+.pagination a {vertical-align:baseline; color:#5a5b49; text-decoration:none;}
+.pagination a:hover {text-decoration:underline;}
+
+.backnext {padding:13px 0 0 35px; width:890px;}
+.backnext a {display:inline-block; margin-right:13px; background:#d1d7aa; padding:4px 12px; text-decoration:none; font-size:11px; color:#5a5b49;}
+.backnext a:hover {text-decoration:underline;}
+
+.section {
+	width:595px;
+	float:left;
+	background-color:#f1f5d8;
+	text-align:justify;
+	}
+.wide {width:890px;}
+.wide h2 {background:#8b0d0f url(../img/redbar.gif) no-repeat top right; height:28px;}
+.wide .lista li {margin:0 40px; padding-bottom:11px; font-size:11px; line-height:14px; font-weight:normal;}
+.wide .lista li.lista_titulo {font-weight:bold; font-size:13px; padding-top:7px; color:#8b0d0f;}
+.wide .lista li a {font-weight:normal; font-size:13px;}
+.wide .lista li * {vertical-align:baseline;}
+
+.wide .links li {margin:0 40px; padding-bottom:11px; font-size:11px; line-height:14px; font-weight:bold;}
+.wide .links li.lista_titulo {font-weight:bold; font-size:13px; padding-top:7px; color:#8b0d0f;}
+.wide .links li a {font-weight:normal; font-size:11px;}
+.wide .links li * {vertical-align:baseline;}
+
+.section p {margin:0 40px; line-height:17px;}
+.article {
+	padding-top:40px;
+	min-height:408px;
+	}
+* html .article {height:408px;}
+
+.artigos {background:#d0d6a9; padding-bottom:13px; display:block; position:absolute; bottom:50px; width:595px;}
+.artigos ul {margin:6px 29px 0 40px; display:inline-block;}
+.artigos ul li {list-style-type:none; line-height:24px;}
+.artigos ul li a {margin:0; padding:0; color:#7f8168; text-decoration:none;}
+.artigos ul li a:hover {text-decoration:underline;}
+#aside {
+	width:295px;
+	float:right;
+	min-height:408px;
+	}
+
+.submenu {width:295px;}
+.submenu li {width:295px; display:block; list-style-type:none;}
+.submenu li a {width:256px; display:block; height:79px; margin:0; padding:22px 0 0 39px; font-size:11px; color:#444637;}
+.submenu li a img {margin-bottom:11px;}
+.submenu li a.top {background:#dbe1b1; text-decoration:none;}
+.submenu li a.bottom {background:#d0d6a9; text-decoration:none;}
+#sanfona {width:295px; background-color:#e5eac1;}
+#sanfona li a.socios, #sanfona li a.advogados, #sanfona li a.consultores, #sanfona li a.administracao {width:279px; height:24px; display:block; font:16px Arial, Helvetica, sans-serif; padding:5px 0 0 16px; color:#555938; text-decoration:none;}
+a.socios {background-color:#d0d6aa;}
+a.advogados {background-color:#bdc299;}
+a.consultores {background-color:#b4b991;}
+a.administracao {background-color:#a8ad84;}
+#subsanfona4 {padding-top:7px;}
+.subsanfona {display: none;}
+.subsanfona .cargo {color:#70754f; font:11px Arial, Helvetica, sans-serif;}
+.subsanfona span {width:274px; display:block; font:13px Arial, Helvetica, sans-serif; padding:0 0 0 21px; color:#555938;}
+.subsanfona a {width:274px; height:22px; display:block; font:13px Arial, Helvetica, sans-serif; padding:7px 0 0 21px; color:#555938; text-decoration:none;}
+.subsanfona a.lnkmail {color:#70754f; padding:0 0 0 21px; font:11px Arial, Helvetica, sans-serif;}
+.subsanfona a:hover {text-decoration:underline;}
+#socios_itens, #adv_itens, #cons_itens {display:none;}
+.submenu3 {width:295px; margin:0; padding:3px 0 0 0; background:#d1d7aa;}
+.submenu3 li {width:295px; height:28px; padding:0; margin:0; display:block; list-style-type:none;}
+#area1, #area2, #area3, #area4, #area5, #area6, #area7 {display:none;}
+#footer {
+	background:#fff;
+	width:925px;
+	height:17px;
+/*	position: absolute;
+	bottom: 0; /**/ 
+	text-align:right;
+	padding-top:3px;
+	padding-right:60px;
+	}
+#footer_home {
+	background:#fff;
+	width:951px;
+	height:17px;
+/*	position: absolute;
+	bottom: 0; /**/ 
+	text-align:right;
+	padding-top:3px;
+	padding-right:34px;
+	}
+#footer a, #footer_home a {
+	margin:0;
+	font-size:10px;
+	font-weight:normal;
+	color:#666666;
+	text-decoration:none;
+	}
+#footer a:hover, #footer_home a:hover {
+	text-decoration:underline;
+	}
+h2 { 	
+	background:#8b0d0f;
+	height:28px;
+	}
+.section .article h1 {margin:0 29px 0 40px; font-size:14px; font-weight:bold;}
+.section .article h3 {margin:0 29px 0 40px; margin-bottom:15px;}
+.section .article h3.tit_pro {color:#6b4d29; font:bold 16px Arial, Helvetica, sans-serif; margin-bottom:5px;}
+.section .artigos h4 {background:#bdc299; height:26px;}
+.clear {clear:both;}
+
+.bg_esc {background:#e5e9c1;}
+.bg_pro {background:#a4aa84;}
+.bg_pro2 {background:#d2d8ac;}
+.bg_areas {background:#d1d7ab;}
+.bg_contato {background:#d1d7ab;}
+
+.section .article a {color:#444637; text-decoration:none;}
+.section .article a:hover {text-decoration:underline;}
+
+.desc_artigo, .legislacao {font-size:11px;}
+.desc_artigo * {vertical-align:baseline;}
+
+.pdfs {margin:0 40px; font-size:12px;}
+.pdfs li {display:block; list-style-type:none; padding-bottom:11px;}
+.pdfs li.tipo_pdf {display:block; list-style-type:none; padding-top:7px; padding-left:0; background-image:none; font-weight:bold;  color:#8b0d0f;}
+.pdfs li a {color:#444637; font-weight:normal; text-decoration:none; font-size:13px;}
+.pdfs li a:hover {text-decoration:underline;}
+
+.adobe {width:175px; background:#d2d5b1; padding:45px 15px 10px 15px; margin:29px auto 0 auto; font-size:11px;}
+.adobelogo {text-align:center;}
+
+#endereco {padding:18px 0 27px 29px; background:#dbe1b1; color:#82846a; font-size:14px; line-height:28px;}
+#endereco a {color:#82846a; font-size:14px; line-height:28px; text-decoration:none;}
+#endereco a:hover {text-decoration:underline;}
+
+.frm_contato {margin:0 40px;}
+#contato {width:472px; margin:0 auto; font-size:11px;}
+#contato div {width:79px; display:block; height:17px; float:left; padding-top:3px;}
+.campo {width:387px;  height:14px; padding-top:3px; border:none; background:#c3c6a6; color:#5c5d4b; font-size:11px;}
+textarea {width:387px; margin-bottom:12px; height:115px; padding-top:2px; font-family:Verdana, Arial, Helvetica, sans-serif; border:none; background:#c3c6a6; color:#5c5d4b; font-size:11px;}
+.button {background-color:#e5e9c1; border:none; font-size:11px; color:#5c5d4b; height:22px; margin-bottom:19px;}
